@@ -6,7 +6,7 @@ terraform {
       version  = "3.43.0"
     }
   }
-terraform {
+
   cloud {
     organization = "terra_sam"
 
@@ -14,7 +14,7 @@ terraform {
       name = "terraform_lab"
     }
   }
-}
+
 }
 
 provider "azurerm" {

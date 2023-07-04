@@ -6,17 +6,16 @@ terraform {
       version  = "3.43.0"
     }
   }
-cloud {
+
+  cloud {
     organization = "terra_sam"
 
     workspaces {
       name = "terraform_lab"
     }
   }
- 
-  }
 
-
+}
 
 provider "azurerm" {
   features {}
